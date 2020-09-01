@@ -9,9 +9,11 @@ Maximization Framework for Neural Group Recommendation", International ACM SIGIR
  2020</b>, Virtual Event, China, July 25-30, 2020.
 
 This repository contains a PyTorch implementation of Group Information Maximization (GroupIM) -  a neural framework for recommending items to groups of users. 
-GroupIM has three modules: user preference encoder (or embedding), group preference 
+GroupIM has three modules: user preference encoder, group preference 
 aggregator, and a training objective over user and group interactions with mutual information maximization. GroupIM 
 supports arbitrary preference encoder and aggregator architectures for group recommendation. 
+
+![GroupIM](GroupIM.png)
 
 ### Requirements
 The code has been tested running under Python 3.6 with the following packages installed (along with their dependencies):
